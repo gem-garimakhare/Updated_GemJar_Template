@@ -1,0 +1,23 @@
+environment: environment_name
+project_name: project_name
+report_name: report_name
+jewel_user: jewel_user_name
+jewel_bridge_token: jewel_bridge_token
+enter_point: https://apis.gemecosystem.com/gemEcosystemDashboard/v1/enter-point
+feature: src/test/resources/Features
+glue_code: hooks
+console_report: n
+jewel_screen_shots: y
+gemheal: y
+event_firing: y
+email_report: Y/N
+email_to: email_to
+email_cc: email_cc
+email_bcc: email_bcc
+tags: '@cucumber_tag_name'
+browser_options:
+  - "--incognito"
+  - "--headless"
+prod:
+  browser_name: browser_name
+  launch_url: application_url
